@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        AZURE_CREDENTIALS_ID = 'Azure Service Principal'
+        AZURE_CREDENTIALS_ID = 'jenkins-pipeline-sp'
         RESOURCE_GROUP = 'Jenkins_rg'
         APP_SERVICE_NAME = 'raghav-app'
     }
